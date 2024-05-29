@@ -1,0 +1,588 @@
+body {
+    font-family: "Alegreya Sans SC", sans-serif;
+    /*for the side space(from the browser)*/
+    margin: 0px;
+    overflow-x:hidden;
+    
+    
+    
+}
+.rgba-effect
+{
+    background-image: url("../images/images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size:100% 100%;
+    color: #ffff;
+    margin-bottom: 40px;
+    
+}
+
+.welcome {
+    
+
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+
+    
+    
+}
+.header
+{
+   
+    z-index: 999;
+
+    width: 90%;
+    margin: auto;
+    padding:30px; 
+    
+    
+}
+
+
+.welcome .header .logo
+{
+   
+    float: left;
+    
+      
+}
+.welcome .header .logo img
+{
+    
+     vertical-align: middle; 
+     width: 200px;
+
+    
+      
+}
+.welcome .header .nav
+{
+    /* display: inline-block;
+    vertical-align: middle; */
+    float: right;      
+}
+
+
+.welcome .header .nav ul
+{
+    
+    /* position: absolute; */
+    list-style-type: none;
+    padding-bottom: 30px;
+    
+    
+}
+.welcome .header ul li
+{
+    display: inline;
+    
+    
+}
+
+.welcome .header ul li a {
+    color: white; /* Change the color to white */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+.welcome .welcome-content button
+{
+    font-weight: bold;
+    padding: 15px;
+    color: #ffff;
+    background-color: #8e7754;
+    border: none;
+    border-radius: 10px;
+}
+
+.welcome .welcome-content
+{
+    position: relative;
+    top: 50px;
+    
+    text-align: center;
+    
+    height: 100%;
+
+    /* background-color: rgba(0, 0, 0, 0.3); */
+   
+
+}
+.welcome-content div
+{
+    padding-top: 30px;
+}
+.welcome .welcome-content span
+{
+    padding: 0px;
+    font-size: 20px;
+    
+
+}
+
+.welcome h1 {
+
+    font-size: 64px;
+    margin: 30px;
+    margin-bottom: 0px;
+}
+.welcome p {
+    padding: 20px;
+    font-size: large;
+    padding-top: 10px;
+    
+}
+
+.welcome .welcome-content div {
+    background-color: #8e7754;
+    display: inline-block; 
+    padding: 20px; 
+    border-radius: 10px;
+    
+}
+.welcome .welcome-content div.transparent {
+    
+    
+    background: transparent;
+    border: white solid 1px;
+    
+}
+
+.home-nav-elem
+{
+    border-top: 4px solid #8e7754;
+    /* margin-top: 30px; */
+    padding-top: 45px
+
+}
+/*======================================who are we========================================================*/
+
+
+.who-we-are
+{
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    vertical-align: middle;
+
+
+   
+  
+    
+}
+.who-we-are .container
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    /* color: #c8c8c8; */
+    color : #686868;
+    font-family: "Alegreya Sans";
+    
+}
+
+.who-we-are .who-we-are-desc
+{
+    
+    float: left;
+    width: 50%;
+    /* position: relative;
+    we had to use position: relative to work
+    top: 50px; */
+    padding-top: 50px; 
+}
+.who-we-are-desc 
+{
+    width: 80%;
+    
+
+}
+
+.who-we-are .who-we-are-img
+{
+    
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 30px;
+
+   
+
+}
+.who-we-are .who-we-are-img img
+{
+   max-width: 80%;
+   height: auto;
+
+}
+
+
+
+
+ .list-icon-style {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ .list-icon-style li {
+    list-style-type: none;
+    padding-left: 25px; 
+    position: relative;
+    padding: 10px;
+}
+.list-icon-style li img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    border: #c7c4c4 solid 1px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.list-icon-style li span{
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+
+
+
+
+/*===========================================our location==========================================================*/
+
+.our-location
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #f8f8f8;
+    vertical-align: middle;
+    width: 100%;
+    
+
+}
+.our-location .container {
+    display: flex;
+    align-items: center;
+    
+    width: 80%;
+    margin: auto;
+    color: #686868;
+    margin-bottom: 0px;
+    
+}
+
+
+.our-location .our-location-desc 
+
+{
+    float:left;
+    width: 50%;
+    padding-top: 50px;
+    position: relative;
+    bottom: 20px;
+    /* vertical-align: middle; */
+    
+    
+    
+}
+.our-location .our-location-desc .content h2
+{
+    color: #303030;
+    font-size: 30px;
+    padding-bottom: 18px;
+}
+.our-location .our-location-desc .content p
+
+{
+    font-size: 18px;
+    padding-bottom: 10px;
+ 
+}
+.our-location .our-location-img 
+{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    margin-top: 30px;
+    padding-left:50px ;
+    
+  
+
+   
+    
+    
+}
+.our-location .our-location-img img
+{
+    max-width: 80%;
+    height: auto;
+    
+    
+    
+}
+
+
+
+/*===========================================our baking==========================================================*/
+.our-baking
+{
+    text-align: center;
+    padding: 50px 0px;
+    color: #888;
+    /* width: 100%; */
+
+   
+    
+   
+}
+.our-baking h2
+{
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #303030;
+
+}
+.our-baking p
+{
+    padding-bottom: 40px;
+
+}
+.our-baking-item
+{
+    
+    
+    width: 33.3%;
+    float: left;
+
+}
+.our-baking-item p
+{
+    width: 80%;
+    margin: auto;
+
+}
+
+.our-baking-item img
+{
+    width: 350px;
+
+}
+
+.our-baking .container
+{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+.clear-fix
+{
+    clear: both;
+}
+
+/*===========================================contact details list==========================================================*/
+
+
+.contact-information
+{
+    background-color: #f8f8f8;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.contact-information .container
+{
+    width: 80%;
+    margin: auto;
+    color: #686868;
+}
+
+.desc-wrapper
+{
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    
+}
+.contact-information-desc
+{
+    width: 80%;
+   
+}
+.contact-information-desc h2
+{
+    padding-bottom: 15px;
+    
+}
+/* .contact-details ul
+{
+    padding-left: 0;
+} */
+
+.contact-information-map
+{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+}
+.contact-information-map img
+{
+
+    /* max-width: 80%; */
+    width: 500px;
+    height: auto;
+}
+
+.contact-list-icon-style
+{
+    /* list-style-type: none; */
+    /*to be at the same vertical level as the above text*/
+    padding-left: 0;
+
+}
+.contact-list-icon-style li {
+    list-style-type: none;
+    padding-left: 25px; /* Adjust as needed */
+    position: relative;
+    padding: 10px;
+}
+.contact-list-icon-style img{
+    color: #ffff;
+    background-color: #8e7754;
+    display: inline-block;
+    vertical-align: middle;
+    width: 40px;
+    border: #c7c4c4 solid 1px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+.contact-list-icon-style span{
+    display: inline-block;
+    vertical-align: middle;
+    
+    
+}
+
+.contact-list-icon-style i img{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px; 
+    height: 30px; 
+    
+}
+/*===========================================footer==========================================================*/
+.home-footer
+{
+    /* background-image: url('../images/images/contact-details-map.png'); */
+    background-size: cover;
+    /* background-color: rgba(0, 0, 0, 0.7); */
+    background-color: #403d38;
+    color: #969696;
+    /* text-align: center; */
+    
+}
+.home-footer h2
+{
+    
+    font-size: 18px;
+    color: #fff;
+      
+}
+.footer-item-wrapper p
+{
+    /* padding: 10px; */
+    padding-bottom: 10px;
+
+}
+.home-footer ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+.home-footer .container
+{
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+
+}
+
+.home-footer .container .footer-item
+{
+    width: 25%;
+    float: left;
+}
+.footer-item img
+{
+    display: inline-block;
+    vertical-align: middle;
+
+    width: 28px;
+
+}
+
+.footer-item ul li hr
+{
+    border: 0;
+    height: 0.3px;
+    background-color: #969696;
+    margin: 20px 0;
+    width: 85%;
+}
+/* .footer-item li
+{
+    padding-left: 25px; 
+    position: relative;
+    
+
+} */
+#item-bg-img
+{
+    background-image: url('../images/images/contact-details-map.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*=========================================footer end========================================*/
+.footer-end
+{
+    background-color: #353330;
+    width: 100%;
+    /* margin: auto; */
+   
+}
+.footer-end-item
+{
+    text-align: center;
+    padding: 30px;
+}
+.footer-end-item .img-wrapper img
+{
+    position: relative;
+    padding: 20px;
+}
+.footer-end ul
+{
+    display: inline-block;
+    padding-left: 0;
+}
+.footer-end ul li
+{
+    display: inline-block;
+}
+
+.footer-end-item ul li img
+{
+    width: 40px;
+    background-color: #484540;
+    border: #c7c4c4 1px;
+    border-radius: 100%;
+    margin: 5px;
+
+}
+
